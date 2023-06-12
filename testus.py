@@ -1,3 +1,6 @@
-print('hello world')
-for i in range(12):
-    print(1)
+def is_palindrom(string):
+    string_rev=string[::-1]
+    if string == string_rev:
+        print('True')
+    else:
+        print('False')
